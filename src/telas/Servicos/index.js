@@ -1,7 +1,6 @@
 import React from 'react'
-import { SafeAreaView, FlatList, KeyboardAvoidingView, Platform } from 'react-native'
-
-import styleGlobal from '../../styles'
+import { FlatList } from 'react-native'
+import TelaPadrao from '../../components/TelaPadrao'
 
 import Item from './Item'
 
@@ -29,15 +28,13 @@ const servicos = [
     id: 4,
     nome: 'Ração Especial p/ Gatos',
     preco: 199.99,
-    descricao:
-      'Cuidar da alimentação do gato é cuidar da saúde dele!'
+    descricao: 'Cuidar da alimentação do gato é cuidar da saúde dele!'
   },
   {
     id: 5,
     nome: 'Brinquedo anti-stress p/ Pets',
     preco: 69.99,
-    descricao:
-      'Seu pet saudável e relaxado no dia a dia'
+    descricao: 'Seu pet saudável e relaxado no dia a dia'
   },
   {
     id: 6,
@@ -55,37 +52,30 @@ const servicos = [
     id: 8,
     nome: 'Toca 2x1 Para seu Pet',
     preco: 399.99,
-    descricao:
-      'A toca que o seu Pet merece!'
+    descricao: 'A toca que o seu Pet merece!'
   },
   {
     id: 9,
     nome: 'Caminha Iglu p/ Gatos',
     preco: 149.99,
-    descricao:
-      'O conforto que o seu gato precisa'
+    descricao: 'O conforto que o seu gato precisa'
   },
   {
     id: 10,
     nome: 'Tapete Higiênico p/ Pets',
     preco: 99.99,
-    descricao:
-      'Elimine o mal odor, e o trabalho, use o Tapete Higiênico'
-  },
+    descricao: 'Elimine o mal odor, e o trabalho, use o Tapete Higiênico'
+  }
 ]
 
 export default function Servicos() {
   return (
-    <SafeAreaView style={styleGlobal.preencher}>
-      <KeyboardAvoidingView 
-      style={styleGlobal.preencher}
-      behavior={Platform.OS == "ios" ? "padding" : "height"}>
+    <TelaPadrao>
       <FlatList
         data={servicos}
         renderItem={({ item }) => <Item {...item} />}
-        keyExtractor={({id}) => String(id)}
+        keyExtractor={({ id }) => String(id)}
       />
-      </KeyboardAvoidingView>
-    </SafeAreaView>
+    </TelaPadrao>
   )
 }
