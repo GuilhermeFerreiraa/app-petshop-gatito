@@ -3,6 +3,7 @@ import { FlatList } from 'react-native'
 
 import StatusCarrinho from '../../components/StatusCarrinho'
 
+
 import Item from './Item'
 
 const servicos = [
@@ -18,7 +19,7 @@ const servicos = [
     nome: 'Vacina V4',
     preco: 89.99,
     descricao: 'Uma Dose da vacina V4. Seu gato precisa de duas!',
-    quantidade: 2
+    quantidade: 1
   },
   {
     id: 3,
@@ -94,4 +95,4 @@ export default function Carrinho() {
   )
 }
 
- 
+  

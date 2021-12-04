@@ -8,7 +8,7 @@ export default StyleSheet.create({
     justifyContent: 'space-around',
     alignItems: 'center',
     flexWrap: 'wrap',
-    padding: 24,
+    padding: 25,
   },
   total: {
     alignItems: 'center',

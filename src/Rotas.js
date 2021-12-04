@@ -36,7 +36,8 @@ export default function Routes() {
           tabBarIconStyle:{
             display: 'none',
           },
-          keyboardHidesTabBar: true
+          keyboardHidesTabBar: true,
+          headerShown: false
         }}
       >
         <Tab.Screen name="Servicos" component={Servicos} />
