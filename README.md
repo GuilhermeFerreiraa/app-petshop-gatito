@@ -2,6 +2,7 @@
  🚀 <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
  💻 <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
  🔖 <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  🔖 <a href="#como-usar">Como Usar?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
  :memo: <a href="#memo-licença">Licença</a>
 </p>
 
@@ -30,7 +31,7 @@ O objetivo do projeto é aplicar os conceitos e conhecimentos que obtive em um c
 
 O layout desta aplicação foi desenvolvido e pode ser acessado através do link https://www.figma.com/file/jfZvtWghnmPka6PmjMyyeP/App-Gatito?node-id=0%3A1
 
-## Como Usar?
+## Como Usar
 
 1º passo: Baixar o Arquivo que está nesse repositório com todo o código da aplicação;
 2º passo: Entrar na pasta onde o Arquivo foi baixado (através do CMD ou do GitBash ou algum outro Terminal);
