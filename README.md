@@ -40,6 +40,10 @@ O layout desta aplicação foi desenvolvido e pode ser acessado através do link
 - 5º passo: Escaneie o QR Code que irá aparecer no terminal ou no navegador;
 - 6º passo: clique no link que o QR Code, onde te redirecionará para o Expo Go, e então irá abrir a aplicação. 
 
+## 📚 Aprendizado
+
+Através dessa aplicação pude aprimorar e conhecer novos conceitos de programação Mobile usando React Native. Gostei de ter feito o projeto, me abriu uma visão sobre uma infinita possibilidade de criação de aplicações, de integrações e etc. Embora não seja a minha área onde eu desejo trabalhar, com certeza irei fazer ainda mais projetos para dispositivos mobiles. 
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes
