@@ -33,12 +33,12 @@ O layout desta aplicação foi desenvolvido e pode ser acessado através do link
 
 ## 🤔 Como Usar
 
-1º passo: Baixar o Arquivo que está nesse repositório com todo o código da aplicação;
-2º passo: Entrar na pasta onde o Arquivo foi baixado (através do CMD ou do GitBash ou algum outro Terminal);
-3º passo: Digite npm start para rodar a aplicação, ou, pode usar o yarn start (caso utilize o yarn);
-4º passo: Baixe o Expo Go (para IOs e Android); 
-5º passo: Escaneie o QR Code que irá aparecer no terminal ou no navegador;
-6º passo: clique no link que o QR Code, onde te redirecionará para o Expo Go, e então irá abrir a aplicação. 
+- 1º passo: Baixar o Arquivo que está nesse repositório com todo o código da aplicação;
+- 2º passo: Entrar na pasta onde o Arquivo foi baixado (através do CMD ou do GitBash ou algum outro Terminal);
+- 3º passo: Digite npm start para rodar a aplicação, ou, pode usar o yarn start (caso utilize o yarn);
+- 4º passo: Baixe o Expo Go (para IOs e Android); 
+- 5º passo: Escaneie o QR Code que irá aparecer no terminal ou no navegador;
+- 6º passo: clique no link que o QR Code, onde te redirecionará para o Expo Go, e então irá abrir a aplicação. 
 
 ## :memo: Licença
 
