@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 - React Native
-- Integrações de APIs (React Navigator, StatusBar, SaveAreaView 
+- Integrações de APIs (React Navigator, StatusBar, SaveAreaView)
 - Algumas bibliotecas auxiliares como INTL
 - Hooks como useEffect e useState
 - NodeJs
